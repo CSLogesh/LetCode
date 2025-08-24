@@ -1,0 +1,14 @@
+testCases\TC04_SelectPageVerification.class
+pageObjects\HomePage.class
+testBase\BaseClass.class
+pageObjects\TabsPage.class
+testCases\TC01_ProductsPageVerification.class
+testCases\TC05_TabsPageVerification.class
+pageObjects\SelectPage.class
+pageObjects\BasePage.class
+testCases\TC02_InputPageVerification.class
+testCases\TC03_ButtonPageVerification.class
+pageObjects\InputPage.class
+utilities\ExtentReportManager.class
+pageObjects\POMProductsPage.class
+pageObjects\ButtonPage.class

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-24T10:00:50 IST" name="Suite" finished-at="2025-08-24T10:01:30 IST" duration-ms="39543">
+    <groups>
+      <group name="functional">
+        <method signature="TC04_SelectPageVerification.verifydropdownactions()[pri:0, instance:testCases.TC04_SelectPageVerification@15de0b3c]" name="verifydropdownactions" class="testCases.TC04_SelectPageVerification"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="TC01_ProductsPageVerification.verifyproductspage()[pri:0, instance:testCases.TC01_ProductsPageVerification@1fa121e2]" name="verifyproductspage" class="testCases.TC01_ProductsPageVerification"/>
+        <method signature="TC03_ButtonPageVerification.verifybuttonpage()[pri:0, instance:testCases.TC03_ButtonPageVerification@1a677343]" name="verifybuttonpage" class="testCases.TC03_ButtonPageVerification"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC01_ProductsPageVerification.verifyproductspage()[pri:0, instance:testCases.TC01_ProductsPageVerification@1fa121e2]" name="verifyproductspage" class="testCases.TC01_ProductsPageVerification"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC03_ButtonPageVerification.verifybuttonpage()[pri:0, instance:testCases.TC03_ButtonPageVerification@1a677343]" name="verifybuttonpage" class="testCases.TC03_ButtonPageVerification"/>
+        <method signature="TC04_SelectPageVerification.verifydropdownactions()[pri:0, instance:testCases.TC04_SelectPageVerification@15de0b3c]" name="verifydropdownactions" class="testCases.TC04_SelectPageVerification"/>
+        <method signature="TC05_TabsPageVerification.verifytabspage()[pri:0, instance:testCases.TC05_TabsPageVerification@489115ef]" name="verifytabspage" class="testCases.TC05_TabsPageVerification"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2025-08-24T10:00:50 IST" name=" Linux Firefox Test" finished-at="2025-08-24T10:01:30 IST" duration-ms="39543">
+      <class name="testCases.TC04_SelectPageVerification">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_SelectPageVerification@15de0b3c]" started-at="2025-08-24T10:01:11 IST" name="setup" finished-at="2025-08-24T10:01:20 IST" duration-ms="9918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifydropdownactions()[pri:0, instance:testCases.TC04_SelectPageVerification@15de0b3c]" started-at="2025-08-24T10:01:20 IST" name="verifydropdownactions" finished-at="2025-08-24T10:01:21 IST" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydropdownactions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC04_SelectPageVerification@15de0b3c]" started-at="2025-08-24T10:01:21 IST" name="teardown" finished-at="2025-08-24T10:01:22 IST" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC04_SelectPageVerification -->
+      <class name="testCases.TC03_ButtonPageVerification">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_ButtonPageVerification@1a677343]" started-at="2025-08-24T10:01:02 IST" name="setup" finished-at="2025-08-24T10:01:08 IST" duration-ms="5472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybuttonpage()[pri:0, instance:testCases.TC03_ButtonPageVerification@1a677343]" started-at="2025-08-24T10:01:08 IST" name="verifybuttonpage" finished-at="2025-08-24T10:01:09 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybuttonpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC03_ButtonPageVerification@1a677343]" started-at="2025-08-24T10:01:09 IST" name="teardown" finished-at="2025-08-24T10:01:11 IST" duration-ms="1946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC03_ButtonPageVerification -->
+      <class name="testCases.TC05_TabsPageVerification">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC05_TabsPageVerification@489115ef]" started-at="2025-08-24T10:01:22 IST" name="setup" finished-at="2025-08-24T10:01:29 IST" duration-ms="6003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytabspage()[pri:0, instance:testCases.TC05_TabsPageVerification@489115ef]" started-at="2025-08-24T10:01:29 IST" name="verifytabspage" finished-at="2025-08-24T10:01:29 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytabspage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC05_TabsPageVerification@489115ef]" started-at="2025-08-24T10:01:29 IST" name="teardown" finished-at="2025-08-24T10:01:30 IST" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC05_TabsPageVerification -->
+      <class name="testCases.TC01_ProductsPageVerification">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_ProductsPageVerification@1fa121e2]" started-at="2025-08-24T10:00:51 IST" name="setup" finished-at="2025-08-24T10:01:00 IST" duration-ms="9491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyproductspage()[pri:0, instance:testCases.TC01_ProductsPageVerification@1fa121e2]" started-at="2025-08-24T10:01:00 IST" name="verifyproductspage" finished-at="2025-08-24T10:01:01 IST" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductspage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC01_ProductsPageVerification@1fa121e2]" started-at="2025-08-24T10:01:01 IST" name="teardown" finished-at="2025-08-24T10:01:02 IST" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC01_ProductsPageVerification -->
+    </test> <!--  Linux Firefox Test -->
+  </suite> <!-- Suite -->
+</testng-results>
