@@ -25,7 +25,7 @@ public class TC01_ProductsPageVerification extends BaseClass
 		boolean getstatus = pp.getstatus();
 		Assert.assertTrue(getstatus);
 		String title = getTitle();
-		System.out.println("TC 01 title of webpage is "+title);
+		System.out.println("TC 01 --> title of webpage is "+title);
 		logger.info("Completed Execution for TC01...");
 		}
 		catch(Exception e)

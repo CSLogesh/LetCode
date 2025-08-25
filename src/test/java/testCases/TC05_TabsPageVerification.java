@@ -21,15 +21,15 @@ public class TC05_TabsPageVerification extends BaseClass
 			TabsPage tp = new TabsPage(driver);
 			tp.clickmutiplewindowsbtn();
 			String title = getTitle();
-			System.out.println("TC 05 Parent window title is :"+title);
+			System.out.println("TC 05 --> Parent window title is :"+title);
 			String childwindowid = getwindowhandles(1);
 			getchildwindow(childwindowid);
 			String title2 = getTitle();
-			System.out.println("TC 05 first child window title is "+title2);
+			System.out.println("TC 05 --> first child window title is "+title2);
 			String secondchildwindow = getwindowhandles(2);
 			getchildwindow(secondchildwindow);
 			String title3 = getTitle();
-			System.out.println("TC 05 second child window title is "+title3);
+			System.out.println("TC 05 --> second child window title is "+title3);
 			
 			Assert.assertTrue(true);
 		}

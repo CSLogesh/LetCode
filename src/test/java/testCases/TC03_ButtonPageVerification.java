@@ -22,7 +22,7 @@ public class TC03_ButtonPageVerification extends BaseClass
 		ButtonPage bp = new ButtonPage(driver);
 		bp.clickHomeBtn();
 		String title = getTitle();
-		System.out.println("TC 03 - Title of the webpage is "+title);
+		System.out.println("TC 03 -> Title of the webpage is "+title);
 		logger.info("Completed Execution for TC03...");
 		Assert.assertTrue(true);
 		
