@@ -1,3 +1,4 @@
+D:\Eclipse\LetCode\src\test\java\pageObjects\AlertsPage.java
 D:\Eclipse\LetCode\src\test\java\pageObjects\BasePage.java
 D:\Eclipse\LetCode\src\test\java\pageObjects\ButtonPage.java
 D:\Eclipse\LetCode\src\test\java\pageObjects\HomePage.java
@@ -11,4 +12,5 @@ D:\Eclipse\LetCode\src\test\java\testCases\TC02_InputPageVerification.java
 D:\Eclipse\LetCode\src\test\java\testCases\TC03_ButtonPageVerification.java
 D:\Eclipse\LetCode\src\test\java\testCases\TC04_SelectPageVerification.java
 D:\Eclipse\LetCode\src\test\java\testCases\TC05_TabsPageVerification.java
+D:\Eclipse\LetCode\src\test\java\testCases\TC06_AlertsPageVerification.java
 D:\Eclipse\LetCode\src\test\java\utilities\ExtentReportManager.java

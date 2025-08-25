@@ -9,6 +9,8 @@ pageObjects\BasePage.class
 testCases\TC02_InputPageVerification.class
 testCases\TC03_ButtonPageVerification.class
 pageObjects\InputPage.class
+testCases\TC06_AlertsPageVerification.class
 utilities\ExtentReportManager.class
 pageObjects\POMProductsPage.class
 pageObjects\ButtonPage.class
+pageObjects\AlertsPage.class

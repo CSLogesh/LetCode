@@ -28,6 +28,9 @@ public class HomePage extends BasePage
 	@FindBy(xpath="//*[text()=' Tabs ']")
 	WebElement clickTabs;
 	
+	@FindBy(xpath="//*[text()=' Dialog ']")
+	WebElement clickAlerts;
+	
 	public void clickPOMBtn()
 	{
 		clickPOM.click();
@@ -51,5 +54,10 @@ public class HomePage extends BasePage
 	public void clickTabsBtn()
 	{
 		clickTabs.click();
+	}
+	
+	public void clickAlertsBtn()
+	{
+		clickAlerts.click();
 	}
 }

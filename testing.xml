@@ -13,10 +13,12 @@
   <parameter name="os" value="windows"></parameter>
   
     <classes>      
-     <class name="testCases.TC01_ProductsPageVerification"/>
+    <class name="testCases.TC01_ProductsPageVerification"/>
      <class name="testCases.TC03_ButtonPageVerification"/> 
     <class name="testCases.TC04_SelectPageVerification"/>
-      <class name="testCases.TC05_TabsPageVerification"/>
+      <class name="testCases.TC05_TabsPageVerification"/> 
+      <class name="testCases.TC06_AlertsPageVerification"/>
+      
        <!--<class name="testCases.TC02_InputPageVerification"/>-->
     </classes>
     
